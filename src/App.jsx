@@ -51,14 +51,14 @@ function App() {
 
   return (
     <div style={{ padding: '2rem', fontFamily: 'sans-serif', maxWidth: '600px', margin: '0 auto' }}>
-      <h2>What is the absolute best leg day machine for maximum hypertrophy?</h2>
+      <h2>Does pineapple belong on pizza?</h2>
 
       <form onSubmit={handleAddOption} style={{ marginBottom: '2rem', display: 'flex', gap: '10px' }}>
         <input 
           type="text" 
           value={newOption}
           onChange={(e) => setNewOption(e.target.value)}
-          placeholder="e.g., Hack Squat"
+          placeholder="e.g., Absolutely yes"
           style={{ flexGrow: 1, padding: '8px' }}
         />
         <button type="submit" style={{ padding: '8px 16px' }}>Submit Option</button>
